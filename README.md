@@ -1,6 +1,7 @@
 # Yandex Cloud Logging Stream для Node.js
 
 Данный модуль позволяет создать [Writable stream](https://nodejs.org/api/stream.html#writable-streams) для передачи данных в [Yandex Cloud Logging](https://cloud.yandex.ru/services/logging).
+
 Так же модуль включает в себя transport для логгера [Pino](https://github.com/pinojs/pino).
 
 ## Установка
@@ -74,5 +75,7 @@ server.listen(3000)
 ## Структура options
 
 Параметр `options` представляет собой объект с ключами `auth` и `destination`.
+
 Параметр `auth` представляет собой объект с ключами `iamToken` или `oauthToken`, которые содержат соответствующие токены. Данный параметр передается в объект Session. Подробнее о данном параметре вы можете узнать [в документации к Node.js SDK](https://github.com/yandex-cloud/nodejs-sdk#getting-started).
+
 Параметр `destination` представляет собой объект с ключами `logGroupId` (идентификатор лог-группы) или `folderId` (идентификатор каталога). Подробнее о данном параметре вы можете узнать [в документации к Yandex Cloud Logging](https://cloud.yandex.ru/docs/logging/concepts/log-group).
