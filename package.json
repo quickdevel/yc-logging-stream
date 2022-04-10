@@ -1,4 +1,28 @@
 {
+  "name": "yc-logging-stream",
+  "version": "1.0.0",
+  "description": "Stream and Pino transport for Yandex Cloud Logging",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/quickdevel/yc-logging-stream.git"
+  },
+  "keywords": [
+    "yandex-cloud",
+    "logging",
+    "stream",
+    "pino",
+    "pino-transport"
+  ],
+  "author": "Maxim Krasnov <quickdevel@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/quickdevel/yc-logging-stream/issues"
+  },
+  "homepage": "https://github.com/quickdevel/yc-logging-stream#readme",
   "dependencies": {
     "@yandex-cloud/nodejs-sdk": "^2.0.0",
     "pino-abstract-transport": "^0.5.0"
