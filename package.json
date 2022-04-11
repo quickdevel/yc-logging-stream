@@ -1,6 +1,6 @@
 {
   "name": "yc-logging-stream",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Stream and Pino transport for Yandex Cloud Logging",
   "main": "index.js",
   "scripts": {
